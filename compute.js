@@ -11,7 +11,7 @@ function calculateRetirement() {
     retirementSavings += Math.round(totalToDate);
     
   }
-  document.getElementById("result").innerHTML = `You will retire with $${retirementSavings.toLocaleString()}!`;
+  document.getElementById("result").innerHTML = `You could retire with $${retirementSavings.toLocaleString()}!`;
   document.getElementById("note").innerHTML = "Note: This calculation is based on a 12% annual return (the historical average annual return of the S&P 500 over 30 years) and no prior savings."
 }
 
