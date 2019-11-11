@@ -1,7 +1,3 @@
-#submit {
-  margin: 15px;
-}
-
 * { 
   padding-top: 5px;
   text-align: center;
@@ -14,51 +10,39 @@ body {
   background-size: auto;
 }
 
-#currentage { 
-  width: 100px;
+p { 
+  font-weight: bold;
+  color: white;
+  }
+  
+  #result {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+  }
+  
+  #note {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+#submit {
+  margin: 15px;
 }
 
-#retirementage { 
-  width: 100px;
-}
-
-#currentlysaved { 
-  width: 100px;
-}
-
-#monthlycontribution { 
-  width: 100px;
-}
-
-#annualreturn { 
+#currentage, #retirementage, #currentlysaved, #monthlycontribution, #annualreturn { 
   width: 100px;
 }
 
 #title {
-  font-size: 50px;
   color: white;
+  font-size: 50px;
 }
 
 #subtitle {
   color: white;
   font-size: 20px;
-}
-
-p { 
-font-weight: bold;
-color: white;
-}
-
-#result {
-  color: white;
-  font-size: 40px;
-  font-style: italic;
-}
-
-#note {
-  color: white;
-  font-size: 12px;
-  font-style: italic;
 }
 
 span {
