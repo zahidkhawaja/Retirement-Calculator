@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb169cdf-2fb5-4ca6-a80e-1e7894f87913/deploy-status)](https://app.netlify.com/sites/retirement/deploys)
+
 # Retirement Calculator
 
 Anyone can retire wealthy! Use this calculator to set yourself up for financial success. 
