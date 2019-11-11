@@ -1,0 +1,118 @@
+#submit {
+  margin: 15px;
+}
+
+* { 
+  padding-top: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("https://i.imgur.com/6QQz5NW.jpg");
+  background-size: cover;
+}
+
+#currentage { 
+  width: 100px;
+}
+
+#retirementage { 
+  width: 100px;
+}
+
+#currentlysaved { 
+  width: 100px;
+}
+
+#monthlycontribution { 
+  width: 100px;
+}
+
+#annualreturn { 
+  width: 100px;
+}
+
+#title {
+  font-size: 50px;
+  color: white;
+}
+
+#subtitle {
+  color: white;
+  font-size: 20px;
+}
+
+p { 
+font-weight: bold;
+color: white;
+}
+
+#result {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#note {
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+}
+
+span {
+  color:white;
+  font-size: 25px;
+  margin: -16px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://i.imgur.com/Pgc8VUM.jpg");
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+.close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: darkgray;
+}
+.close-button:hover {
+  background-color: darkgray;
+}
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.trigger {
+  padding: 10px;
+  margin: 40px;
+}
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Retirement Calculator</title>
+</head>
+
+<body>
+    <h1 id="title"> Start Saving for Retirement </h1>
+    <h1 id = "subtitle"> Calculate your future wealth by answering three simple questions: </h1>
+    <div>
+        <p>How old are you?</p> <input id="currentage">
+    </div>
+    <div>
+        <p>At what age do you want to retire?</p> <input id="retirementage">
+    </div>
+    <div id ="month">
+      <p>How much money can you invest every month?</p><span>$&nbsp;&nbsp;&nbsp;</span><input id="monthlycontribution">
+    </div>
+    
+    <button class="trigger" onclick="calculateRetirement()">Calculate</button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p id="result">&nbsp;</p>
+            <p id="note">&nbsp;</p>
+        </div>
+    </div>
+    
+    <script src="compute.js"></script>
+</body>
+
+</html>
