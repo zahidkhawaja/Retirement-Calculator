@@ -10,10 +10,15 @@ body {
   background-size: auto;
 }
 
-p, a { 
+p { 
   font-weight: bold;
   color: white;
   }
+
+a { 
+  font-size: 12px;
+  color: white;
+}
   
   #result {
     color: white;
@@ -24,6 +29,7 @@ p, a {
   #note {
     color: white;
     font-size: 12px;
+    font-style: italic;
   }
 
 #submit {
